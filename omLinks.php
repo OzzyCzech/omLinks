@@ -7,11 +7,7 @@ Author: Roman Ozana <ozana@omdesign.cz>
 Author URI: http://www.omdesign.cz/
 */
 class omLinks {
-
-  public static function init() {
-    return new self;
-  }
-
+  
   public function __construct() {
     add_filter('the_content', array(&$this, 'processContent'), 9);
   }
@@ -38,4 +34,4 @@ class omLinks {
   }
 }
 
-omLinks::init();
+$omLinks = new omLinks();
