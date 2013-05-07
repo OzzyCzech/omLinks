@@ -30,7 +30,7 @@ class omLinks {
    */
   public function processUrl($matches) {
     $url = reset($matches);
-    return sprintf('<a href="%s" title="" rel="nofolow">%s</a>', $url, $url);
+    return sprintf('<a href="%s" title="" rel="nofolow" class="auto">%s</a>', $url, $url);
   }
 }
 
