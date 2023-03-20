@@ -3,8 +3,8 @@
 Plugin Name: omLinks
 Description: Replace urls in post to links
 Version: 1.0
-Author: Roman Ozana <ozana@omdesign.cz>
-Author URI: http://www.omdesign.cz/
+Author: Roman Ozana <roman@ozana.cz>
+Author URI: https://ozana.cz/
 */
 class omLinks {
   
